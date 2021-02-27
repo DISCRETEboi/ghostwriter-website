@@ -1,4 +1,85 @@
-theme: "ghostwriter"
-baseURL: http://example.org/
+baseurl: "/"
+title: Abdul-Mateen's
+theme: ghostwriter
 languageCode: en-us
-title: My New Hugo Site
+copyright: Abdul-Mateen
+disqusShortname: XXX
+googleAnalytics: XXX
+pygmentsUseClasses: true
+pygmentsCodefences: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    tabWidth: 2
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+
+author:
+  name: Abdul-Mateen
+  profile: ""
+
+taxonomies:
+  tag: tags
+
+params:
+  mainSections:
+    - post
+  intro: true
+  headline: Welcome to Abdul-Mateen's Platform
+  description: This website is a documentation of some professional activities Abdul-Mateen has taken part in.
+  github: "https://github.com/DISCRETEboi"
+  linkedin: "https://www.linkedin.com/in/abdul-mateen-qamardeen-4167331b6/"
+  twitter: "https://twitter.com/DISCRETEboi206"
+  stackoverflow: "https://stackoverflow.com/users/XXX/YYY"
+  facebook: "https://www.facebook.com/username"
+  email: XXX@example.com
+  opengraph: true
+  shareTwitter: true
+  rss: true
+  shareFacebook: true
+  shareLinkedIn: false
+  dateFormat: "Mon, Jan 2, 2006"
+  exponeaJsUrl: ""
+  exponeaTarget: ""
+  exponeaToken: ""
+  exponeaTrackVisits: false
+  readingTime: true
+  readingTimeText: "Estimated reading time:"
+  fathomUrl: ""
+  fathomSiteId: ""
+  # If you want to use plausible(https://plausible.io) for analytics, add this section
+  plausibleAnalytics:
+    domain: ""
+    # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+    serverURL: ""
+
+permalinks:
+  post: "/:year/:month/:day/:filename/"
+
+menu:
+  main:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Projects
+      url: /project/
+      weight: 2
+    - name: Contact
+      url: /page/contact/
+      weight: 3
+    - name: About
+      url: /page/about/
+      weight: 4
