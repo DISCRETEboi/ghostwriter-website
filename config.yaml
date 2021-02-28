@@ -38,7 +38,7 @@ params:
   mainSections:
     - home
   intro: true
-  headline: Welcome to Abdul-Mateen's Platform
+  headline: Abdul-Mateen's Platform
   description: This website is a documentation of some professional activities Abdul-Mateen has taken part in.
   github: "https://github.com/DISCRETEboi"
   linkedin: "https://www.linkedin.com/in/abdul-mateen-qamardeen-4167331b6/"
