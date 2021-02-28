@@ -36,7 +36,7 @@ taxonomies:
 
 params:
   mainSections:
-    - post
+    - home
   intro: true
   headline: Welcome to Abdul-Mateen's Platform
   description: This website is a documentation of some professional activities Abdul-Mateen has taken part in.
